@@ -1,4 +1,5 @@
 file: Nininja.flag.png
+
 Sau khi dò bằng các tool cơ bản: file, exiftool, binwalk, strings; ta vẫn không tìm thấy điểm khả nghi.
 Tiến hành dò bằng tool `stegsolve` 
 
