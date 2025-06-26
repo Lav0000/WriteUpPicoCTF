@@ -1,10 +1,10 @@
 file: Nininja.flag.png
 Sau khi dò bằng các tool cơ bản: file, exiftool, binwalk, strings; ta vẫn không tìm thấy điểm khả nghi.
 Tiến hành dò bằng tool `stegsolve` 
-![Image](https://github.com/user-attachments/assets/dd24d865-800a-4a00-baa2-c222fd6513e7)
+
 
 Chọn Data Extract
-![Image](https://github.com/user-attachments/assets/e82d6670-30f5-43c2-b110-334358c64285)
+![Image](https://private-user-images.githubusercontent.com/195089734/459415165-e82d6670-30f5-43c2-b110-334358c64285.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA5NTM4MDAsIm5iZiI6MTc1MDk1MzUwMCwicGF0aCI6Ii8xOTUwODk3MzQvNDU5NDE1MTY1LWU4MmQ2NjcwLTMwZjUtNDNjMi1iMTEwLTMzNDM1OGM2NDI4NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjI2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYyNlQxNTU4MjBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wMmQ3YWQ5ODcwODM2NTg5MTQ5N2NjMDY5YTQxY2M5NmQ3MDk0OGUxNTYxZjZjZDgxMjVlMzUzYmVmMDAxMjcyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.aCP3ABaNz23_wxrp8HLbrjF83oM04pWTwOgT5mDmh7s)
 
 Thường thì flag sẽ được giấu trong LSB (Least Significant Bit) tức bit plane 0 để hạn chế gây nhiễu/ảnh hưởng đến hình ảnh hiển thị. Nhưng ở bài MSB (Most Significant Bit) này, ta sẽ check bit plane 7.
 ![Image](https://github.com/user-attachments/assets/9de60a20-4f4e-4807-ad94-62bb1f40bd72)
