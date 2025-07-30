@@ -7,6 +7,7 @@
 
 **TIẾN HÀNH:**
 1. Mở file img bằng Autopsy, rà soát các phân vùng và file/folder, ta nhận thấy tại vol3 có chứa folder root - đây là folder đầu tiên mà người chơi nên chú ý kiếm tra kỹ vì các challenge ở mức thấp hay giấu manh mối ở chỗ này.
+
    <img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/a4f80498-fbd7-4cf5-a596-cd5da1ec92e3" />
 
 2. Ở đây, ta dò được những file sau:
@@ -18,7 +19,7 @@ File history ghi lại lịch sử dòng lệnh rằng máy đã được genera
 <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/04a39a96-0dd7-4877-8f57-6935d8919df2" />
 <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/7c7bc97e-1c64-43eb-8b4b-9331535e4880" />
 
- Việc còn lại là tạo hoặc trích xuất file private key có tên và nội dung tương tự để ssh vào máy chủ pico thôi.
+3. Việc còn lại là tạo hoặc trích xuất file private key có tên và nội dung tương tự để ssh vào máy chủ pico thôi.
  Ở đây mình sẽ dùng Webshell của pico để chạy, bạn có thể dùng terrminal, wsl, vm, hay bất cứ thứ gì khác.
  
  ```bash
